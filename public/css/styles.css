@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+    body { 
+        font-family: roboto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ebebeb;
+    
+     }
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+    width: 100%;
+
+    }
+.main-header-top-bar {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+}
+
+.titulo-menu {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 6px;
+    max-width:150px;
+}
+
+.hamburger-button {
+    background-color: #1259c3;
+    border: 1px solid black;
+    color: white;
+    border-radius: 8px ;
+    display:block;
+    max-width: 50px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+}
+.main-header-bottom-bar {
+    display: none;
+}
+.main-header-bottom-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-header-bottom-bar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.banner img {
+    width:100vw;
+   
+}
+
+.main {
+    width: 90%;
+    margin-top: 0;
+    margin:auto;
+}
+.visto-reciente h4 {
+    font-size: 20px;
+    color: #64666c;
+    text-align: center;
+    padding: 20px;
+
+}
+.ofertas h4 {
+    font-size: 20px;
+    color: #64666c;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+        background-color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+
+}
+.card img {
+    width: 100%;
+}
+.card i {
+    color: #2db043;
+    border: 1px solid #2db043;
+    border-radius: 100px;
+    padding:5px;
+}
+.card .descripcion {
+    margin-top: 25px;
+
+}
+
+.info-producto {
+    border-top: 2px solid #ebebeb;
+    padding: 15px;
+}
+
+.info-producto .descripcion {
+    display: none;
+}
+
+@media(min-width:360px){
+    .info-producto .descripcion {
+        display: flex;
+    }
+    .card{
+        box-shadow: 0px 0px 10px rgb(100,100, 100);
+    }
+}
+
+@media (min-width:768px){
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .titulo-menu {
+        max-width: 300px;
+        text-align: right;
+    }
+    .hamburger-button {
+        display: none;
+    }
+    .main-header-bottom-bar {
+        display: flex;
+       
+        justify-content: space-between;
+    }
+    .main-header-bottom-bar ul {
+        display: flex;
+             
+    }
+    .main-header-bottom-bar li {
+        margin: 0 7px;
+    }
+}
+
+@media (min-width: 1200px){
+    .main-header-top-bar, .main-header-bottom-bar {
+        max-width: 1200px;
+        margin: auto;
+    
+    }
+    .main-header-bottom-bar {
+        font-size: 16px;
+    }
+
+    .titulo-menu {
+        max-width: none;
+        
+    }
+}
+
+/*● Debemos centrar la sección main y que ocupe un 90% del ancho de la pantalla.
+● Entre cada artículo hay una separación de 10 píxeles.
+● Nos piden que manejemos el logo del envío, el precio, el porcentaje de descuento
+y la descripción del artículo como elementos de una caja dentro de la caja general
+del artículo.
+● Nos piden que la misma tenga un borde superior de 1 píxel, línea sólida y color
+#ebebeb.
+● Debe tener separado el contenido de sus bordes en 15 píxeles en cada uno de sus
+lados.
+*/
