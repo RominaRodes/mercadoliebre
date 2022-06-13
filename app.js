@@ -9,6 +9,9 @@ app.use(express.static(publicPath));
 app.get('/', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/home.html'))
 });
+app.get('/crear', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/crear-producto.html'))
+});
 
 
 app.listen(3001, () => console.log("servidor escuchando puerto 3001 funcionando"))

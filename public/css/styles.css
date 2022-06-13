@@ -118,6 +118,33 @@
     display: none;
 }
 
+.create-form {
+    padding: 20px 15px;
+
+}
+.control-formulario {
+    margin-bottom: 15px;
+}
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control {
+    width: 90vw;
+    max-width: 800px;
+    padding: 8px 8px;
+}
+.button-form {
+    background-color: #2db043;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
 @media(min-width:360px){
     .info-producto .descripcion {
         display: flex;
