@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c9feabc71.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre" class="logo">
+
+
+            <div class="searchbar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type='search' placeholder="">
+            </div>
+            <h2 class="titulo-menu">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+
+
+        <a href="#" class="hamburger-button">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav class="main-header-bottom-bar">
+            <ul class="letf-navbar">
+                <li><a href=#>Ofertas</a></li>
+                <li><a href=#>Tiendas Oficiales</a></li>
+                <li><a href=#>Vender</a></li>
+                <li><a href=#>Ayuda</a></li>
+            </ul>
+            <ul class="rigth-navbar">
+                <li><a href=#>Creá tu cuenta<i class="fa-solid fa-id-card"></i></a></li>
+                <li><a href=#>Ingresá<i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href=#>Mis compras<i class="fa-solid fa-basket-shopping"></i></a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section class="register">
+        <form action="/register" method="POST" class="register-form">
+        <div class="control-form">
+            <label for="name">Nombre y Apellido:</label>
+            <input type="text" name="nombre-completo" class="control">
+        </div>
+        <div class="control-form">
+            <label for="user-name">Nombre de usuario:</label>
+            <input type="text" name="user-name" class="control">
+        </div>
+        <div class="control-form">
+            <label for="date-of-birth">Fecha de Nacimiento:</label>
+            <input type="date" name="date-of-birth" class="control">
+        </div>
+        <div class="control-form">
+            <label for="direction">Direccion:</label>
+            <input type="text" name="direction" class="control">
+        </div>
+        <div class="control-form">
+            <label for="CP">Codigo postal:</label>
+            <input type="number" name="CP" class="control">
+        </div>
+        <div class="control-form">
+            <label for="user-profile">Perfil de usuario:</label>
+            <input type="radio" name="user-profile"  value="Vender">Vender
+            <input type="radio" name="user-profile"  value="Comprar">Comprar
+        </div> 
+        <div class="control-form">
+            <h3>Categorias de interes:</h3>
+            <label for="categories1">Moda</label>
+            <input type="checkbox" name="categories"  id="categories1" value="Moda">
+            <label for="categories2">Electro</label>
+            <input type="checkbox" name="categories" id="categories2" value="Electro" >
+            <label for="categories3">Hogar</label>
+            <input type="checkbox" name="categories" id="categories3" value="Hogar">
+            <label for="categories4">Jugueteria</label>
+            <input type="checkbox" name="categories" id="categories4" value="Jugueteria">
+            <label for="categories5">Vida Sana</label>
+            <input type="checkbox" name="categories" id="categories5" value="Vida Sana">
+          </div>
+        <div class="avatar">
+            <label for="avatar">Seleccionar una imagen para tu perfil</label>
+            <input type="file" name="avatar" accept=".jpg, .png">
+         </div>
+         <div class="password">
+            <label for="password">Crea una contraseña</label>
+            <input type="password" name="password">
+         </div>
+         <div class="repeat-password">
+            <label for="repeat-password">Repeti la contraseña</label>
+            <input type="password" name="password">
+         </div>
+         <button class="button" type="reset">Borrar</button>
+         <button class="button" type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>
