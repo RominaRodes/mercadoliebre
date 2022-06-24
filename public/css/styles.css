@@ -162,12 +162,18 @@
 .card .info-producto:hover .descripcion {
     display:contents;
 }
-
+.register {
+    width: 90vw;
+    margin: auto;
+}
 .register-form {
-    margin-top: 172px;
-    margin-left: 10px;
-    margin-right: 10px;
+    display:block;
+    margin-top: 172px;   
    
+}
+.checkbox {
+    display: flex;
+    flex-direction: column;
 }
 .login-form {
     width: 100%;
@@ -188,12 +194,16 @@
 }
 
 .create-form {
+    display: block;
     padding: 20px 15px;
     margin-top: 172px;
     margin-left: 5px;
     margin-right: 5px;
    
 
+}
+.register-form {
+    width: 100%;
 }
 .control-formulario {
     margin-bottom: 15px;
@@ -204,15 +214,14 @@
     display: block;
 }
 .control-form {
-    margin: 10px;
-  
-        
+    margin: 10px;        
     }
 
 .control {
     width: 90vw;
-    max-width: 800px;
+    max-width: 600px;
     padding: 8px 8px;
+
 }
 .button{
     background-color: #2db043;
@@ -294,6 +303,17 @@ footer section p {
     }
     .main-header-bottom-bar li {
         margin: 0 7px;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .control-form {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        flex-wrap: wrap<br>
     }
     footer section h4 {
         text-align: center;

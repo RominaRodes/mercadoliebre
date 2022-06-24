@@ -52,7 +52,7 @@
 
     </header>
     <section class="register">
-        <form action="/register" method="POST" class="register-form">
+        <form action="#" method="POST" class="register-form">
         <div class="control-form">
             <label for="name">Nombre y Apellido:</label>
             <input type="text" name="nombre-completo" class="control">
@@ -74,34 +74,34 @@
             <input type="number" name="CP" class="control">
         </div>
         <div class="control-form">
-            <label for="user-profile">Perfil de usuario:</label>
-            <input type="radio" name="user-profile"  value="Vender">Vender
+            <label >Perfil de usuario:</label><br>
+            <input type="radio" name="user-profile"  value="Vender">Vender<br>
             <input type="radio" name="user-profile"  value="Comprar">Comprar
         </div> 
         <div class="control-form">
-            <h3>Categorias de interes:</h3>
-            <label for="categories1">Moda</label>
-            <input type="checkbox" name="categories"  id="categories1" value="Moda">
-            <label for="categories2">Electro</label>
-            <input type="checkbox" name="categories" id="categories2" value="Electro" >
-            <label for="categories3">Hogar</label>
-            <input type="checkbox" name="categories" id="categories3" value="Hogar">
-            <label for="categories4">Jugueteria</label>
-            <input type="checkbox" name="categories" id="categories4" value="Jugueteria">
-            <label for="categories5">Vida Sana</label>
-            <input type="checkbox" name="categories" id="categories5" value="Vida Sana">
+            <label>Categorias de interes:</label><br>
+            <label for="categories1"><input type="checkbox" name="categories"  id="categories1" value="Moda">Moda</label><br>
+            
+            <label for="categories2"> <input type="checkbox" name="categories" id="categories2" value="Electro">Electro</label><br>
+           
+            <label for="categories3"><input type="checkbox" name="categories" id="categories3" value="Hogar">Hogar</label><br>
+            
+            <label for="categories4"><input type="checkbox" name="categories" id="categories4" value="Jugueteria">Jugueteria</label><br>
+            
+            <label for="categories5"><input type="checkbox" name="categories" id="categories5" value="Vida Sana">Vida Sana</label>
+            
           </div>
-        <div class="avatar">
+        <div class="control-form">
             <label for="avatar">Seleccionar una imagen para tu perfil</label>
             <input type="file" name="avatar" accept=".jpg, .png">
          </div>
-         <div class="password">
-            <label for="password">Crea una contraseña</label>
-            <input type="password" name="password">
+         <div class="control-form">
+            <label for="password">Crea una contraseña</label><br>
+            <input type="password" name="password" class="control">
          </div>
-         <div class="repeat-password">
-            <label for="repeat-password">Repeti la contraseña</label>
-            <input type="password" name="password">
+         <div class="control-form">
+            <label for="repeat-password">Repeti la contraseña</label><br>
+            <input type="password" name="password" class="control">
          </div>
          <button class="button" type="reset">Borrar</button>
          <button class="button" type="submit">Enviar</button>
