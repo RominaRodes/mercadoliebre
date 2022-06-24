@@ -37,7 +37,7 @@
 
  form {
     display: flex;
-    align-items: center;
+
 }
 
 
@@ -204,7 +204,15 @@
 }
 .register-form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px 15px;
+    margin-top: 172px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
 .control-formulario {
     margin-bottom: 15px;
 }
@@ -216,9 +224,12 @@
 .control-form {
     margin: 10px;        
     }
+    .control-form label{
+        display: block;
+    }
 
 .control {
-    width: 90vw;
+    width: 100%;
     max-width: 600px;
     padding: 8px 8px;
 
@@ -305,16 +316,8 @@ footer section p {
         margin: 0 7px;
     }
 
-    .login-form {
-        display: flex;
-        flex-direction: column;
-    }
-    .control-form {
-        display: flex;
-        flex-direction: row;
-        width: 70%;
-        flex-wrap: wrap<br>
-    }
+    
+   
     footer section h4 {
         text-align: center;
     }

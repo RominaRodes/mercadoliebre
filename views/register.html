@@ -44,8 +44,8 @@
                 <li><a href=#>Ayuda</a></li>
             </ul>
             <ul class="rigth-navbar">
-                <li><a href=#>Creá tu cuenta<i class="fa-solid fa-id-card"></i></a></li>
-                <li><a href=#>Ingresá<i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="/register">Creá tu cuenta<i class="fa-solid fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá<i class="fa-solid fa-right-to-bracket"></i></a></li>
                 <li><a href=#>Mis compras<i class="fa-solid fa-basket-shopping"></i></a></li>
             </ul>
         </nav>
@@ -80,33 +80,66 @@
         </div> 
         <div class="control-form">
             <label>Categorias de interes:</label><br>
-            <label for="categories1"><input type="checkbox" name="categories"  id="categories1" value="Moda">Moda</label><br>
+            <label for="categories1"><input type="checkbox" name="categories"  id="categories1" value="Moda">Moda</label>
             
-            <label for="categories2"> <input type="checkbox" name="categories" id="categories2" value="Electro">Electro</label><br>
+            <label for="categories2"> <input type="checkbox" name="categories" id="categories2" value="Electro">Electro</label>
            
-            <label for="categories3"><input type="checkbox" name="categories" id="categories3" value="Hogar">Hogar</label><br>
+            <label for="categories3"><input type="checkbox" name="categories" id="categories3" value="Hogar" >Hogar</label>
             
-            <label for="categories4"><input type="checkbox" name="categories" id="categories4" value="Jugueteria">Jugueteria</label><br>
+            <label for="categories4"><input type="checkbox" name="categories" id="categories4" value="Jugueteria">Jugueteria</label>
             
             <label for="categories5"><input type="checkbox" name="categories" id="categories5" value="Vida Sana">Vida Sana</label>
             
           </div>
         <div class="control-form">
             <label for="avatar">Seleccionar una imagen para tu perfil</label>
-            <input type="file" name="avatar" accept=".jpg, .png">
+            <input type="file" name="avatar" accept=".jpg, .png" class="control">
          </div>
          <div class="control-form">
-            <label for="password">Crea una contraseña</label><br>
+            <label for="password">Crea una contraseña</label>
             <input type="password" name="password" class="control">
          </div>
          <div class="control-form">
-            <label for="repeat-password">Repeti la contraseña</label><br>
+            <label for="repeat-password">Repeti la contraseña</label>
             <input type="password" name="password" class="control">
          </div>
+         <div class="reset-submit">
          <button class="button" type="reset">Borrar</button>
          <button class="button" type="submit">Enviar</button>
+         </div>
+
+        
         </form>
     </section>
+
+    <footer>
+        <div class="footer-sections">
+            <section>
+                <i class="fa-solid fa-credit-card"></i>
+                <h4>Pagá con tarjeta o en efectivo</h4>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</p>
+            </section>
+
+            <section>
+                <i class="fa-solid fa-gift"></i>
+                <h4>Envío gratis desde $ 2.500</h4>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
+            </section>
+
+            <section>
+                <i class="fa-solid fa-user-tag"></i>
+                <h4>Seguridad, de principio a fin</h4>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.</p>
+            </section>
+        </div>
+
+        <section class="copyright">
+            <p>Copyright © 1999-2020 MercadoLiebre S.R.L</p>
+        </section>
+    </footer>
 </body>
 
 </html>
